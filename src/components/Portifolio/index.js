@@ -58,9 +58,7 @@ function Portifolio() {
             <img alt="meudiploma" src={Meudiploma}></img>
             <p>{data[7].description}</p>
         </Card> 
-      </Box>
-      
-        
+      </Box>    
   </Container>);
 }
 

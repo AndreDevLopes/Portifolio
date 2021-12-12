@@ -18,18 +18,18 @@ export default [
     },
     {
         title:'Leadbot',
-        description:''
+        description:'O app Leadbot foi construído em Electron.js e Express, esse app desktop é bastante utilizado para automatizar o envio de mensagens pelo whatsapp para os alunos da faculdade FAEL'
     },
     {
         title:'Pokedesk',
-        description:''
+        description:'Desenvolvido em React.js e Typescript foi um desafio proposto pela empresa Brisanet para a sua vaga de desenvolvedor web.'
     },
     {
         title:'Eventlinez',
-        description:''
+        description:'Responsável por implementar novas funcionalidade no site https://www.eventlinez.com/  um sistema monolitico feito em Django '
     },
     {
         title:'Meudiploma',
-        description:''
+        description:'Responsável por desenvolver o frontend em React.js do site https://www.meudiploma.com.br/. O meudiploma.com é um sistema monolítico desenvolvido em Django e React.js onde o Django renderiza o Frontend em React.js que é previamente compilado pelo webpack. '
     },
 ]
