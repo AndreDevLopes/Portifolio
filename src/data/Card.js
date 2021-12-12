@@ -15,5 +15,21 @@ export default [
     {
         title:'Mattes',
         description:'Sistema para juntar pessoas a imoveis ou quartos compartilhados. Front-end criado em React.js Beck-end feito com Node.js, Express e PostgreSQL.'
-    }
+    },
+    {
+        title:'Leadbot',
+        description:''
+    },
+    {
+        title:'Pokedesk',
+        description:''
+    },
+    {
+        title:'Eventlinez',
+        description:''
+    },
+    {
+        title:'Meudiploma',
+        description:''
+    },
 ]

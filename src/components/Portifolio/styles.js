@@ -1,21 +1,17 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-    height: 310rem;
+    min-height: 100vh;
     width:100%;
     background: var(--color-secondary);
     margin-top:40rem;
     display: flex;
     padding-top:5rem;
-    
     flex-direction: column;
 
     @media (min-width: 1024px){
-        flex-direction: row;
-        height:900px;
         margin-top:0;
-        padding-top:50px;
-       
+        padding-top:50px;       
     }
    
   
@@ -36,10 +32,7 @@ export const Card = styled.div `
         width:84vw;
         height:40rem;
     }
-    &:hover{
-        transition:1s;
-        transform:scale(1.1);
-    }
+  
     @media (min-width: 1024px){
         
         width:400px;
@@ -53,25 +46,18 @@ export const Card = styled.div `
             width:300px;
             height:150px;
         }
-        &:hover{
-        transition:1s;
-        transform:scale(1.6);
-        cursor: zoom-in;
-    }
+      
     }
 
  `;
 
  export const Box = styled.div `
     @media (min-width: 1024px){
-        padding-top:100px;
-        padding-bottom:100px;
-        width:1300px;
-        display:flex;
-        flex-direction: row;
+        margin-top:50px;
+        margin-left: 5%;
+        display: flex;
+        margin-bottom: 100px;
         flex-wrap: wrap;
-        margin-left:100px;
-        margin-top:100px;
     }
  
  `;

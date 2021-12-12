@@ -50,8 +50,6 @@ function  Skill() {
                 
     },[]);
 
-
-  console.log(data);
    
   return (<Container id="skill">
     <TitleSection title="Skills"  bar="10"/>
