@@ -16,10 +16,10 @@ function  Skill() {
                  const response = await axios.get(api);
                         let array = response.data;
                         let tam = array.length 
-                        let lenguage = ['HTML','TypeScript','JavaScript','Dart','Java','C'];
-                        let quantity =[0,0,0,0,0,0]; 
+                        let lenguage = ['HTML','TypeScript','JavaScript','Dart','Java','C', 'Python'];
+                        let quantity =[0,0,0,0,0,0,0]; 
                         let DATA = [];      
-                        for(let j =0; j<6; j++){
+                        for(let j =0; j<7; j++){
                            
                             for(let i = 0; i< tam ; i++){
                               if(lenguage[j] === array[i].language){
@@ -32,7 +32,7 @@ function  Skill() {
 
                             }
                         }
-                        for( let i =0 ; i< 6 ; i++){
+                        for( let i =0 ; i< 7 ; i++){
                           let ob = {name:lenguage[i], Projetos: quantity[i]}
                           DATA.push(ob);
                         }  
