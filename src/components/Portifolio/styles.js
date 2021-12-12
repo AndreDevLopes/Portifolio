@@ -4,7 +4,6 @@ export const Container = styled.section`
     min-height: 100vh;
     width:100%;
     background: var(--color-secondary);
-    margin-top:40rem;
     display: flex;
     padding-top:5rem;
     flex-direction: column;
@@ -28,6 +27,7 @@ export const Card = styled.div `
     color: var(--color-primary);
     padding:2%;
     border-radius: 2rem;
+    margin-bottom: 5rem;
     > img {
         width:84vw;
         height:40rem;
@@ -35,7 +35,7 @@ export const Card = styled.div `
     > p{
         margin-top: 20px;
         text-align: start;
-        font-size: 14px;
+        font-size: 2.5rem;
     }
   
     @media (min-width: 1024px){
@@ -51,6 +51,9 @@ export const Card = styled.div `
             width:300px;
             height:150px;
             margin-bottom: 15px;
+        }
+        > p{
+            font-size: 16px;
         }
       
     }
